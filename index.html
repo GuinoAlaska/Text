@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title src="lookup.json">&lt;text&gt;</title>
+        <script src="versions/1.0.0/text.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="Menu bar">
+            <a id="features a"><text id="menu features" src="lookup.json" alt="Features"></a>
+            <a id="examples a"><text id="menu examples" src="lookup.json" alt="Examples"></a>
+            <a id="download a"><text id="menu contact" src="lookup.json" alt="Download"></a>
+            <a id="contact a"><text id="menu contact" src="lookup.json" alt="Contact"></a>
+        </div>
+        <div id="Content">
+            <header>
+                <h1><text id="title" src="lookup.json" alt="<text>"></h1>
+                <p><text id="description" src="lookup.json" alt="<text> is a lightweight, versatile JavaScript utility that makes translating and dynamically updating your web page content effortless. Instead of manually updating text elements or hardcoding multiple language versions, this tool allows you to manage all your content through a single JSON lookup file.\n\nWith minimal setup, you can replace any <text> tag in your HTML with content from your JSON file. The language is automatically detected from the URL, so your site can instantly adapt to different audiences without changing a line of HTML."></p>
+            </header>
+            <section>
+                <h2><text id="Key-features title" src="lookup.json" alt="Key features"></h2>
+                <p><text id="Key-features point1" src="lookup.json" alt="- Simple integration: Just include the script in your HTML or import it into your JS project."></p>
+                <p><text id="Key-features point2" src="lookup.json" alt="- Dynamic translations: Supports multiple languages via a single JSON file."></p>
+                <p><text id="Key-features point3" src="lookup.json" alt="- Automatic language detection: Reads ?lang=xx from the URL to determine which translation to display."></p>
+                <p><text id="Key-features point4" src="lookup.json" alt="- Multiple JSON sources: Different sections of your site can pull from different JSON files."></p>
+                <p><text id="Key-features point5" src="lookup.json" alt="- Caching: JSON files are loaded once per page for optimal performance."></p>
+                <p><text id="Key-features point6" src="lookup.json" alt="- Open-source & free: Perfect for developers, educators, or anyone building multilingual websites."></p>
+            </section>
+            <section>
+                <h2><text id="Why-use-it title" src="lookup.json" alt="Why Use It?"></h2>
+                <p><text id="Why-use-it desc" src="lookup.json" alt="Instead of writing custom scripts or manually swapping text elements, this tool centralizes your content, makes updates painless, and ensures your pages are ready for a global audience. Ideal for websites, landing pages, tutorials, and any project that needs multilingual support."></p>
+            </section>
+            <section>
+                <h2><text id="Examples-of-use title" src="lookup.json" alt="Examples of use"></h2>
+                <div class="example-panel">
+                    <h3><text id="Examples-of-use basic" src="lookup.json" alt="Basic"></h3>
+                    <p><text id="Examples-of-use html" src="lookup.json" alt="By using the following HTML line:"></p>
+                    <pre>&lt;p&gt;&lt;text id="greeting" src="lookup.json"&gt;&lt;/p&gt;</pre>
+                    <p><text id="Examples-of-use json" src="lookup.json" alt="Using this lookup.json:"></p>
+                    <pre><code>{
+    "greeting": {
+        "en": "Hello world",
+        "es": "Hola mundo"
+    }
+}</code></pre>
+                    <p><text id="Examples-of-use result" src="lookup.json" alt="As a result:"></p>
+                    <p>- URL: index.html?lang=en → <span class="result">Hello world</span></p>
+                    <p>- URL: index.html?lang=es → <span class="result">Hola mundo</span></p>
+                </div>
+                <div class="example-panel">
+                    <h3><text id="Examples-of-use extra" src="lookup.json" alt="Extra Text"></h3>
+                    <p><text id="Examples-of-use html" src="lookup.json" alt="By using the following HTML line:"></p>
+                    <pre>&lt;p&gt;&lt;text id="welcome" src="lookup.json"&gt;, user!&lt;/p&gt;</pre>
+                    <p><text id="Examples-of-use json" src="lookup.json" alt="Using this lookup.json:"></p>
+                    <pre><code>{
+    "welcome": {
+        "en": "Welcome",
+        "es": "Bienvenido"
+    }
+}</code></pre>
+                    <p><text id="Examples-of-use result" src="lookup.json" alt="As a result:"></p>
+                    <p>- URL: index.html?lang=en → <span class="result">Welcome, user!</span></p>
+                    <p>- URL: index.html?lang=es → <span class="result">Bienvenido, user!</span></p>
+                </div>
+                <div class="example-panel">
+                    <h3><text id="Examples-of-use multiple" src="lookup.json" alt="Multiple "><code><text id="Examples-of-use multiple code" src="lookup.json" alt="<text>"></code><text id="Examples-of-use multiple2" src="lookup.json" alt=" in the Same Line"></h3>
+                    <p><text id="Examples-of-use html" src="lookup.json" alt="By using the following HTML line:"></p>
+                    <pre><code>&lt;p&gt;
+    &lt;text id="hello" src="lookup.json"&gt;
+    &lt;text id="world" src="lookup.json"&gt;
+&lt;/p&gt;</code></pre>
+                    <p><text id="Examples-of-use json" src="lookup.json" alt="Using this lookup.json:"></p>
+                    <pre><code>{
+    "hello": {
+        "en": "Hello",
+        "es": "Hola"
+    },
+    "world": {
+        "en": "World",
+        "es": "Mundo"
+    }
+}</code></pre>
+                    <p><text id="Examples-of-use result" src="lookup.json" alt="As a result:"></p>
+                    <p>- URL: index.html?lang=en → <span class="result">Hello World</span></p>
+                    <p>- URL: index.html?lang=es → <span class="result">Hola Mundo</span></p>
+                </div>
+                <div class="example-panel">
+                    <h3><text id="Examples-of-use mixed" src="lookup.json" alt="Mixed HTML"></h3>
+                    <p><text id="Examples-of-use html" src="lookup.json" alt="By using the following HTML line:"></p>
+                    <pre><code>&lt;p&gt;
+    &lt;text id="info" src="lookup.json"&gt;
+    &lt;a href="https://example.com"&gt;&lt;text id="read more" src="lookup.json"&gt;&lt;/a&gt;
+&lt;/p&gt;</code></pre>
+                    <p><text id="Examples-of-use json" src="lookup.json" alt="Using this lookup.json:"></p>
+                    <pre><code>{
+    "info": {
+        "en": "This project is open-source.",
+        "es": "Este proyecto es de código abierto."
+    },
+    "read more": {
+        "en": "Read more",
+        "es": "Leer más"
+    }
+}</code></pre>
+                    <p><text id="Examples-of-use result" src="lookup.json" alt="As a result:"></p>
+                    <p>- URL: index.html?lang=en → <span class="result">This project is open-source. [Read more]</span></p>
+                    <p>- URL: index.html?lang=es → <span class="result">Este proyecto es de código abierto. [Leer más]</span></p>
+                </div>
+                <div class="example-panel">
+                    <h3><text id="Examples-of-use missing" src="lookup.json" alt="Missing Translation"></h3>
+                    <p><text id="Examples-of-use html" src="lookup.json" alt="By using the following HTML line:"></p>
+                    <pre><code>&lt;p&gt;&lt;text id="notFound" src="lookup.json" alt="Backup text"&gt;&lt;/p&gt;
+</code></pre>
+                    <p><text id="Examples-of-use no json" src="lookup.json" alt="Without a matching entry in the lookup.json"></p>
+                    <p><text id="Examples-of-use no json console" src="lookup.json" alt="As a result, the console drops:"></p>
+                    <pre><code>⚠️ Missing text for id="notFound" and lang="fr"</code></pre>
+                    <p><text id="Examples-of-use no json result" src="lookup.json" alt="Result on page:"></p>
+                    <p><span class="result">Backup text</span></p>
+                </div>
+                <div class="example-panel">
+                    <h3><text id="Examples-of-use special" src="lookup.json" alt="Special"></h3>
+                    <p><text id="Examples-of-use html" src="lookup.json" alt="By using the following HTML line:"></p>
+                    <pre><code>&lt;title src="lookup.json"&gt;&lt;/title&gt;</code></pre>
+                    <p><text id="Examples-of-use json" src="lookup.json" alt="Using this lookup.json:"></p>
+                    <pre><code>{
+    "title": {
+        "en": "Title",
+        "es": "Título"
+    },
+}</code></pre>
+                    <p><text id="Examples-of-use result" src="lookup.json" alt="As a result:"></p>
+                    <p>- URL: index.html?lang=en → <span class="result">Title</span> in the tab's title</p>
+                    <p>- URL: index.html?lang=es → <span class="result">Título</span> in the tab's title</p>
+                </div>
+                <p><text id="Examples-of-use self" src="lookup.json" alt="This website itself uses the Text Replacement Tool to manage and translate all text content dynamically."></p>
+            </section>
+            <section>
+                <h2><text id="How-to-implement title" src="lookup.json" alt="How to implement"></h2>
+                <div id="Implementation">
+                    <div class="implementation-panel">
+                        <h3><text id="How-to-implement js" src="lookup.json" alt="Via import on js"></h3>
+                        <p><text id="How-to-implement js desc" src="lookup.json" alt="Import on the js file using this code ad the top:"></p>
+                        <pre><code>import https://guinoalaskapp.github.com/textool/versions/v1.0.0/text.js;</code></pre>
+                    </div>
+                    <div class="implementation-panel">
+                        <h3><text id="How-to-implement html" src="lookup.json" alt="Via import on html"></h3>
+                        <p><text id="How-to-implement html desc" src="lookup.json" alt="Import on the HTML's head using this code:"></p>
+                        <pre><code>&lt;script src="https://guinoalaskapp.github.com/textool/versions/v1.0.0/text.js"&gt;&lt;/script&gt;</code></pre>
+                    </div>
+                    <div class="implementation-panel">
+                        <h3><text id="How-to-implement download" src="lookup.json" alt="Via download"></h3>
+                        <p><text id="How-to-implement download desc" src="lookup.json" alt="select and download the version of <text> you like from this page, then paste this code on your HTML's head:"></p>
+                        <pre><code>&lt;script src="text.js"&gt;&lt;/script&gt;</code></pre>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2><text id="Download title" src="lookup.json" alt="Download"></h2>
+                <div class="download">
+                    <div class="download-panel">
+                        <h3><text id="Download latest" src="lookup.json" alt="Latest version"></h3>
+                        <a href="versions/v1.0.0/text.js" download="text.js">
+                            &lt;text&gt; v1.0.0
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2><text id="Contact title" src="lookup.json" alt="Contact"></h2>
+                <p>
+                    <a href="https://github.com/GuinoAlaska">GitHub</a>
+                    <a href="mailto:guinoalaskapp@yahoo.com">Email</a>
+                </p>
+            </section>
+        </div>
+    </body>
+</html>

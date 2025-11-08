@@ -1,0 +1,296 @@
+{
+    "title": {
+        "en": "<text>",
+        "es": "<text>",
+        "fr": "<text>",
+        "pt": "<text>",
+        "ja": "<text>"
+    },
+    "menu features": {
+        "en": "Features",
+        "es": "Características",
+        "fr": "Fonctionnalités",
+        "pt": "Recursos",
+        "ja": "機能"
+    },
+    "menu examples": {
+        "en": "Examples",
+        "es": "Ejemplos",
+        "fr": "Exemples",
+        "pt": "Exemplos",
+        "ja": "例"
+    },
+    "menu contact": {
+        "en": "Contact",
+        "es": "Contacto",
+        "fr": "Contact",
+        "pt": "Contato",
+        "ja": "お問い合わせ"
+    },
+    "description": {
+        "en": "<text> is a lightweight, versatile JavaScript utility that makes translating and dynamically updating your web page content effortless. Instead of manually updating text elements or hardcoding multiple language versions, this tool allows you to manage all your content through a single JSON lookup file.\n\nWith minimal setup, you can replace any <text> tag in your HTML with content from your JSON file. The language is automatically detected from the URL, so your site can instantly adapt to different audiences without changing a line of HTML.",
+        "es": "<text> es una utilidad JavaScript ligera y versátil que hace que la traducción y actualización dinámica del contenido de tu página web sea sin esfuerzo. En lugar de actualizar manualmente elementos de texto o codificar múltiples versiones de idiomas, esta herramienta te permite gestionar todo tu contenido a través de un único archivo JSON de búsqueda.\n\nCon una configuración mínima, puedes reemplazar cualquier etiqueta <text> en tu HTML con contenido de tu archivo JSON. El idioma se detecta automáticamente desde la URL, por lo que tu sitio puede adaptarse instantáneamente a diferentes audiencias sin cambiar una línea de HTML.",
+        "fr": "<text> est un utilitaire JavaScript léger et polyvalent qui facilite la traduction et la mise à jour dynamique du contenu de votre page web. Plutôt que de mettre à jour manuellement les éléments de texte ou de coder plusieurs versions linguistiques, cet outil vous permet de gérer tout votre contenu depuis un seul fichier JSON de recherche.\n\nAvec une configuration minimale, vous pouvez remplacer n'importe quelle balise <text> dans votre HTML par le contenu de votre fichier JSON. La langue est détectée automatiquement à partir de l'URL, permettant à votre site de s'adapter instantanément à différents publics sans modifier une ligne de HTML.",
+        "pt": "<text> é uma utilidade JavaScript leve e versátil que facilita a tradução e a atualização dinâmica do conteúdo da sua página web. Em vez de atualizar manualmente elementos de texto ou codificar várias versões de idioma, esta ferramenta permite gerir todo o seu conteúdo através de um único ficheiro JSON de pesquisa.\n\nCom configuração mínima, pode substituir qualquer etiqueta <text> no seu HTML pelo conteúdo do ficheiro JSON. O idioma é detetado automaticamente a partir da URL, para que o seu site se adapte instantaneamente a diferentes públicos sem alterar uma linha de HTML.",
+        "ja": "<text> は軽量で多用途な JavaScript ユーティリティで、ウェブページのコンテンツの翻訳や動的な更新を簡単に行えます。テキスト要素を手動で更新したり、複数の言語版をハードコーディングする代わりに、このツールを使うと単一の JSON ルックアップファイルで全コンテンツを管理できます。\n\n最小限の設定で、HTML 内の任意の <text> タグを JSON ファイルの内容に置き換えられます。言語は URL から自動的に検出されるため、HTML を一切変更せずにサイトを異なるユーザーに瞬時に対応させることができます。"
+    },
+    "Key-features title": {
+        "en": "Key features",
+        "es": "Características principales",
+        "fr": "Fonctionnalités clés",
+        "pt": "Principais recursos",
+        "ja": "主な機能"
+    },
+    "Key-features point1": {
+        "en": "- Simple integration: Just include the script in your HTML or import it into your JS project.",
+        "es": "- Integración simple: Solo incluye el script en tu HTML o impórtalo en tu proyecto JS.",
+        "fr": "- Intégration simple : Incluez simplement le script dans votre HTML ou importez-le dans votre projet JS.",
+        "pt": "- Integração simples: Basta incluir o script no seu HTML ou importá-lo no seu projeto JS.",
+        "ja": "- シンプルな統合: スクリプトをHTMLに含めるか、JSプロジェクトにインポートするだけです。"
+    },
+    "Key-features point2": {
+        "en": "- Dynamic translations: Supports multiple languages via a single JSON file.",
+        "es": "- Traducciones dinámicas: Soporta múltiples idiomas mediante un solo archivo JSON.",
+        "fr": "- Traductions dynamiques : Prend en charge plusieurs langues via un seul fichier JSON.",
+        "pt": "- Traduções dinâmicas: Suporta vários idiomas através de um único ficheiro JSON.",
+        "ja": "- 動的翻訳: 単一の JSON ファイルで複数言語をサポートします。"
+    },
+    "Key-features point3": {
+        "en": "- Automatic language detection: Reads ?lang=xx from the URL to determine which translation to display.",
+        "es": "- Detección automática de idioma: Lee ?lang=xx desde la URL para determinar qué traducción mostrar.",
+        "fr": "- Détection automatique de la langue : lit ?lang=xx depuis l'URL pour déterminer quelle traduction afficher.",
+        "pt": "- Detecção automática de idioma: Lê ?lang=xx da URL para determinar qual tradução exibir.",
+        "ja": "- 自動言語検出: URL から ?lang=xx を読み取り、表示する翻訳を決定します。"
+    },
+    "Key-features point4": {
+        "en": "- Multiple JSON sources: Different sections of your site can pull from different JSON files.",
+        "es": "- Fuentes JSON múltiples: Diferentes secciones de tu sitio pueden obtener contenido de distintos archivos JSON.",
+        "fr": "- Sources JSON multiples : différentes sections de votre site peuvent utiliser différents fichiers JSON.",
+        "pt": "- Múltiplas fontes JSON: Diferentes secções do seu site podem utilizar ficheiros JSON diferentes.",
+        "ja": "- 複数の JSON ソース: サイトの異なるセクションが別々の JSON ファイルから読み込むことができます。"
+    },
+    "Key-features point5": {
+        "en": "- Caching: JSON files are loaded once per page for optimal performance.",
+        "es": "- Caché: Los archivos JSON se cargan una vez por página para un rendimiento óptimo.",
+        "fr": "- Mise en cache : les fichiers JSON sont chargés une seule fois par page pour des performances optimales.",
+        "pt": "- Cache: Os ficheiros JSON são carregados uma vez por página para um desempenho ideal.",
+        "ja": "- キャッシュ: JSON ファイルはページごとに一度だけ読み込まれ、最適なパフォーマンスを実現します。"
+    },
+    "Key-features point6": {
+        "en": "- Open-source & free: Perfect for developers, educators, or anyone building multilingual websites.",
+        "es": "- Código abierto y gratuito: Perfecto para desarrolladores, educadores o cualquiera que construya sitios web multilingües.",
+        "fr": "- Open source et gratuit : Parfait pour les développeurs, les formateurs ou toute personne créant des sites multilingues.",
+        "pt": "- Código aberto e gratuito: Perfeito para desenvolvedores, educadores ou qualquer pessoa que crie sites multilíngues.",
+        "ja": "- オープンソースで無料: 開発者、教育者、または多言語サイトを構築する人に最適です。"
+    },
+    "Why-use-it title": {
+        "en": "Why Use It?",
+        "es": "¿Por qué usarlo?",
+        "fr": "Pourquoi l'utiliser ?",
+        "pt": "Por que usar?",
+        "ja": "なぜ使うのか？"
+    },
+    "Why-use-it desc": {
+        "en": "Instead of writing custom scripts or manually swapping text elements, this tool centralizes your content, makes updates painless, and ensures your pages are ready for a global audience. Ideal for websites, landing pages, tutorials, and any project that needs multilingual support.",
+        "es": "En lugar de escribir scripts personalizados o cambiar manualmente los elementos de texto, esta herramienta centraliza tu contenido, facilita las actualizaciones y garantiza que tus páginas estén listas para una audiencia global. Ideal para sitios web, páginas de aterrizaje, tutoriales y cualquier proyecto que necesite soporte multilingüe.",
+        "fr": "Au lieu d'écrire des scripts personnalisés ou de remplacer manuellement des éléments de texte, cet outil centralise votre contenu, facilite les mises à jour et garantit que vos pages sont prêtes pour un public mondial. Idéal pour les sites web, les pages de destination, les tutoriels et tout projet nécessitant une prise en charge multilingue.",
+        "pt": "Em vez de escrever scripts personalizados ou trocar manualmente elementos de texto, esta ferramenta centraliza o seu conteúdo, torna as atualizações fáceis e garante que as suas páginas estão prontas para um público global. Ideal para websites, landing pages, tutoriais e qualquer projeto que necessite de suporte multilíngue.",
+        "ja": "カスタムスクリプトを書く代わりに、あるいはテキスト要素を手動で差し替える代わりに、このツールはコンテンツを一元化し、更新を簡単にし、ページをグローバルなオーディエンスに対応させます。ウェブサイト、ランディングページ、チュートリアル、そして多言語サポートが必要なあらゆるプロジェクトに最適です。"
+    },
+    "Examples-of-use title": {
+        "en": "Examples of use",
+        "es": "Ejemplos de uso",
+        "fr": "Exemples d'utilisation",
+        "pt": "Exemplos de uso",
+        "ja": "使用例"
+    },
+    "Examples-of-use basic": {
+        "en": "Basic",
+        "es": "Básico",
+        "fr": "Basique",
+        "pt": "Básico",
+        "ja": "基本"
+    },
+    "Examples-of-use html": {
+        "en": "By using the following HTML line:",
+        "es": "Usando la siguiente línea de HTML:",
+        "fr": "En utilisant la ligne HTML suivante :",
+        "pt": "Usando a seguinte linha HTML:",
+        "ja": "次の HTML 行を使用すると："
+    },
+    "Examples-of-use json": {
+        "en": "Using this lookup.json:",
+        "es": "Usando este lookup.json:",
+        "fr": "En utilisant ce lookup.json :",
+        "pt": "Usando este lookup.json:",
+        "ja": "この lookup.json を使用："
+    },
+    "Examples-of-use result": {
+        "en": "As a result:",
+        "es": "Como resultado:",
+        "fr": "En conséquence :",
+        "pt": "Como resultado:",
+        "ja": "結果として："
+    },
+    "Examples-of-use extra": {
+        "en": "Extra Text",
+        "es": "Texto extra",
+        "fr": "Texte supplémentaire",
+        "pt": "Texto extra",
+        "ja": "追加のテキスト"
+    },
+    "Examples-of-use multiple": {
+        "en": "Multiple ",
+        "es": "Múltiples ",
+        "fr": "Multiples ",
+        "pt": "Múltiplos ",
+        "ja": "複数の"
+    },
+    "Examples-of-use multiple code": {
+        "en": "<text>",
+        "es": "<text>",
+        "fr": "<text>",
+        "pt": "<text>",
+        "ja": "<text>"
+    },
+    "Examples-of-use multiple2": {
+        "en": " in the Same Line",
+        "es": " en la misma línea",
+        "fr": " sur la même ligne",
+        "pt": " na mesma linha",
+        "ja": " 同じ行に"
+    },
+    "Examples-of-use mixed": {
+        "en": "Mixed HTML",
+        "es": "HTML mixto",
+        "fr": "HTML mixte",
+        "pt": "HTML misto",
+        "ja": "混合 HTML"
+    },
+    "Examples-of-use missing": {
+        "en": "Missing Translation",
+        "es": "Traducción faltante",
+        "fr": "Traduction manquante",
+        "pt": "Tradução em falta",
+        "ja": "翻訳がありません"
+    },
+    "Examples-of-use no json": {
+        "en": "Without a matching entry in the lookup.json",
+        "es": "Sin una entrada coincidente en el lookup.json",
+        "fr": "Sans entrée correspondante dans le lookup.json",
+        "pt": "Sem uma entrada correspondente no lookup.json",
+        "ja": "lookup.json に一致するエントリがない場合"
+    },
+    "Examples-of-use no json console": {
+        "en": "As a result, the console drops:",
+        "es": "Como resultado, la consola muestra:",
+        "fr": "En conséquence, la console affiche :",
+        "pt": "Como resultado, o console exibe:",
+        "ja": "結果として、コンソールは次のように出力します："
+    },
+    "Examples-of-use no json result": {
+        "en": "Result on page:",
+        "es": "Resultado en la página:",
+        "fr": "Résultat sur la page :",
+        "pt": "Resultado na página:",
+        "ja": "ページ上の結果："
+    },
+    "Examples-of-use special": {
+        "en": "Special",
+        "es": "Especial",
+        "fr": "Spécial",
+        "pt": "Especial",
+        "ja": "特別"
+    },
+    "Examples-of-use self": {
+        "en": "This website itself uses the Text Replacement Tool to manage and translate all text content dynamically.",
+        "es": "Este mismo sitio web utiliza la Herramienta de Reemplazo de Texto para gestionar y traducir todo el contenido de texto de forma dinámica.",
+        "fr": "Ce site utilise lui-même l'Outil de Remplacement de Texte pour gérer et traduire dynamiquement tout le contenu textuel.",
+        "pt": "Este site utiliza a Ferramenta de Substituição de Texto para gerir e traduzir dinamicamente todo o conteúdo de texto.",
+        "ja": "このウェブサイト自体がテキスト置換ツールを使用して、すべてのテキストコンテンツを動的に管理・翻訳しています。"
+    },
+    "How-to-implement title": {
+        "en": "How to implement",
+        "es": "Cómo implementarlo",
+        "fr": "Comment l'implémenter",
+        "pt": "Como implementar",
+        "ja": "実装方法"
+    },
+    "How-to-implement js": {
+        "en": "Via import on js",
+        "es": "Mediante import en JS",
+        "fr": "Via importation en JS",
+        "pt": "Via importação em JS",
+        "ja": "JS でのインポート方法"
+    },
+    "How-to-implement js desc": {
+        "en": "Import on the js file using this code ad the top:",
+        "es": "Importa en el archivo JS usando este código al inicio:",
+        "fr": "Importez dans le fichier JS en utilisant ce code en haut :",
+        "pt": "Importe no ficheiro JS usando este código no início:",
+        "ja": "JS ファイルの先頭で次のコードをインポートしてください："
+    },
+    "How-to-implement html": {
+        "en": "Via import on html",
+        "es": "Mediante import en HTML",
+        "fr": "Via importation dans le HTML",
+        "pt": "Via importação no HTML",
+        "ja": "HTML でのインポート方法"
+    },
+    "How-to-implement html desc": {
+        "en": "Import on the HTML's head using this code:",
+        "es": "Importa en el encabezado del HTML usando este código:",
+        "fr": "Importez dans l'en-tête du HTML en utilisant ce code :",
+        "pt": "Importe no head do HTML usando este código:",
+        "ja": "HTML の head に次のコードをインポートしてください："
+    },
+    "How-to-implement download": {
+        "en": "Via download",
+        "es": "Mediante descarga",
+        "fr": "Via téléchargement",
+        "pt": "Via download",
+        "ja": "ダウンロードで"
+    },
+    "How-to-implement download desc": {
+        "en": "select and download the version of <text> you like from this page, then paste this code on your HTML's head:",
+        "es": "Selecciona y descarga la versión de <text> que prefieras desde esta página, luego pega este código en el encabezado de tu HTML:",
+        "fr": "Sélectionnez et téléchargez la version de <text> que vous souhaitez depuis cette page, puis collez ce code dans l'en-tête de votre HTML :",
+        "pt": "Selecione e faça o download da versão de <text> que desejar nesta página, depois cole este código no head do seu HTML:",
+        "ja": "このページから好きな <text> のバージョンを選択してダウンロードし、次にこのコードを HTML の head に貼り付けてください："
+    },
+    "Download title": {
+        "en": "Download",
+        "es": "Descargar",
+        "fr": "Télécharger",
+        "pt": "Descarregar",
+        "ja": "ダウンロード"
+    },
+    "Download latest": {
+        "en": "Latest version",
+        "es": "Última versión",
+        "fr": "Dernière version",
+        "pt": "Última versão",
+        "ja": "最新バージョン"
+    },
+    "Download latestb": {
+        "en": "Latest Beta",
+        "es": "Última Beta",
+        "fr": "Dernière Beta",
+        "pt": "Última Beta",
+        "ja": "最新のベータ"
+    },
+    "Download old": {
+        "en": "Old versions",
+        "es": "Versiones antiguas",
+        "fr": "Anciennes versions",
+        "pt": "Versões antigas",
+        "ja": "過去のバージョン"
+    },
+    "Contact title": {
+        "en": "Contact",
+        "es": "Contacto",
+        "fr": "Contact",
+        "pt": "Contato",
+        "ja": "お問い合わせ"
+    }
+}

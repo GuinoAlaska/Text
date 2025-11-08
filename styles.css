@@ -1,0 +1,246 @@
+/* styles.css
+   Modern, responsive styling for the provided HTML.
+   Uses attribute selectors for IDs with spaces and unknown <text> elements.
+*/
+
+/* ---------- Vars & Reset ---------- */
+:root{
+    --bg: #0f1724;            /* deep blue-gray */
+    --card: #0b1220;          /* darker card bg */
+    --muted: #94a3b8;         /* muted text */
+    --accent: #7dd3fc;        /* cyan accent */
+    --accent-2: #60a5fa;      /* blue */
+    --glass: rgba(255,255,255,0.04);
+    --radius: 12px;
+    --container: 1100px;
+    --gap: 1rem;
+    --shadow: 0 8px 30px rgba(2,6,23,0.6);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+                Roboto, "Helvetica Neue", Arial;
+    color-scheme: dark;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+    margin:0;
+    background: #061021;
+    color: #e6eef8;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    line-height:1.45;
+    letter-spacing: -0.01em;
+    padding: 24px;
+}
+
+/* Centered main container */
+#Content{
+    max-width: var(--container);
+    margin: 24px auto;
+    padding: 28px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(255,255,255,0.03);
+}
+
+/* ---------- Top Menu Bar ---------- */
+/* ID contains space "Menu bar" — use attribute selector */
+[id="Menu bar"]{
+    display:flex;
+    gap: 10px;
+    align-items:center;
+    justify-content:flex-end;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.02);
+    position: fixed;
+    width: calc(100% - 44px);
+    top: 24px;
+    z-index: 40;
+    margin-bottom: 18px;
+}
+
+/* style links inside menu */
+[id="Menu bar"] a{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding: 8px 12px;
+    text-decoration:none;
+    color:var(--muted);
+    font-weight:600;
+    font-size:.95rem;
+    border-radius:999px;
+    transition: all .18s ease;
+    border: 1px solid transparent;
+}
+[id="Menu bar"] a:hover,
+[id="Menu bar"] a:focus{
+    color: #0b1220;
+    background: linear-gradient(90deg,var(--accent), var(--accent-2));
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(96,165,250,0.12);
+}
+
+/* ---------- Header / Hero ---------- */
+header{
+    display:grid;
+    gap: 12px;
+    margin-bottom: 18px;
+    align-items: center;
+}
+
+header h1{
+    font-size: clamp(1.4rem, 2.6vw, 2.6rem);
+    margin:0;
+    line-height:1.05;
+    letter-spacing:-0.02em;
+    color: #eaf6ff;
+}
+
+/* unknown <text> elements are inline by default — ensure they inherit styles */
+text, [id] text { 
+    font: inherit;
+    color: inherit;
+}
+
+/* description paragraph */
+header p{
+    margin:0;
+    color:var(--muted);
+    font-size:1rem;
+    max-width: 80ch;
+    white-space: pre-wrap; /* keep line breaks from alt content */
+}
+
+/* ---------- Sections & Headings ---------- */
+section{
+    margin-top: 22px;
+    padding-top: 8px;
+    border-top: 1px dashed rgba(255,255,255,0.03);
+}
+
+h2{
+    margin:0 0 8px 0;
+    font-size:1.1rem;
+    color:#dff6ff;
+    display:flex;
+    align-items:center;
+    gap: 10px;
+}
+
+/* Subtitles and small headings */
+h3{
+    margin:0 0 8px 0;
+    font-size:.98rem;
+    color: #cbeafc;
+}
+
+/* ---------- Example panels / cards ---------- */
+.example-panel{
+    background: linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01));
+    border-radius: var(--radius);
+    padding: 14px;
+    margin: 12px 0;
+    border: 1px solid rgba(255,255,255,0.03);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.45);
+}
+
+.example-panel + .example-panel { margin-top: 10px; }
+
+.example-panel h3{ font-size:1rem; margin-bottom:8px; }
+.example-panel p{ color:var(--muted); margin:6px 0; }
+
+/* code block styling */
+pre{
+    background: rgba(2,6,23,0.5);
+    padding: 14px;
+    border-radius: 10px;
+    overflow:auto;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+    font-size: .92rem;
+    margin:8px 0;
+    border:1px solid rgba(255,255,255,0.03);
+    color: #dff6ff;
+}
+
+/* inline code */
+code{ font-family:inherit; }
+
+/* result badges */
+.result{
+    display:inline-block;
+    padding: 6px 10px;
+    background: linear-gradient(90deg, rgba(125,211,252,0.12), rgba(96,165,250,0.08));
+    color: #e6f9ff;
+    border-radius: 8px;
+    font-weight:700;
+    margin-left:6px;
+    border: 1px solid rgba(125,211,252,0.12);
+}
+
+/* Download area */
+.download{
+    display:flex;
+    gap:16px;
+    margin-top:12px;
+}
+.download-panel{
+    width: 100%;
+}
+.download-panel a{
+    display:inline-block;
+    padding:8px 12px;
+    background: linear-gradient(90deg,var(--accent),var(--accent-2));
+    color: #061021;
+    border-radius: 12px;
+    text-decoration:none;
+    font-weight:700;
+    box-shadow: 0 8px 30px rgba(96,165,250,0.12);
+    width: 100%;
+}
+.download-panel a:focus{ outline: 3px solid rgba(125,211,252,0.14); outline-offset:3px; }
+
+/* Contact links */
+section a{ color: var(--accent); text-decoration: none; margin-right: 12px; }
+section a:hover{ text-decoration: underline; color: #bde8ff; }
+
+/* Implementation panels grid */
+#Implementation{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    margin-top:10px;
+}
+.implementation-panel{ padding:12px; background: var(--glass); border-radius:10px; border:1px solid rgba(255,255,255,0.02); }
+
+/* small utilities */
+.result-list{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+
+/* focus outlines for keyboard users */
+a:focus, button:focus, [tabindex]:focus{
+    outline: 3px solid rgba(96,165,250,0.18);
+    outline-offset: 3px;
+    border-radius:8px;
+}
+
+/* responsive tweaks */
+@media (max-width:720px){
+    body{ padding:16px }
+    #Content{ padding:18px; margin:12px auto; }
+    [id="Menu bar"]{ justify-content:space-between; gap:6px; padding:6px; }
+    header h1{ font-size:1.6rem; }
+    .example-panel{ padding:12px; }
+}
+
+/* Small visual polish for unknown elements like <text> and <title> */
+/*text{
+    display:inline;
+}
+title, [id="title"]{
+    text-transform:none;
+}*/
+
+/* ensure pre/code blocks wrap long strings reasonably */
+pre code{ white-space: pre-wrap; word-break: break-word; }
